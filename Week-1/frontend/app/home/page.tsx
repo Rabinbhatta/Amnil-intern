@@ -10,6 +10,7 @@ const Page = () => {
   const [myBlogs, setMyBlogs] = useState(false);
   const [edit,setEdit] = useState(false);
     const [blogId,setBlogId] = useState("");
+    const [totalPages, setTotalPages] = useState(1);
   const [form, setForm] = useState({
     title: "",
     content: "",
@@ -35,7 +36,8 @@ const Page = () => {
       `${process.env.NEXT_PUBLIC_BASE_URL}/api/blog/allBlogs?page=${pageNum}&limit=${limit}`
     );
     const data = await res.json();
-    setBlogs(data || []);
+    setBlogs(data.blogs || []);
+    setTotalPages(data.totalPages || 1);
     console.log(data);
   };
 
@@ -48,7 +50,8 @@ const Page = () => {
     );
     const data = await res.json();
     if(res.ok){
-      setBlogs(data || []);
+      setBlogs(data.blogs || []);
+      setTotalPages(data.totalPages || 1);
     }else{
         setBlogs([]);
     }
@@ -75,6 +78,7 @@ const Page = () => {
     if(res.ok){
         alert("Blog deleted successfully");
         if(myBlogs){
+            setPageNum(1);
             getMyBlogs();
         }else{
             getAllBlogs();
@@ -254,13 +258,13 @@ const handleLogout = () => {
         <div className="flex space-x-4 mb-6 justify-center">
   <button
     className={`px-6 py-2 rounded-xl cursor-pointer ${!myBlogs?" bg-green-400 text-white": "bg-gray-200 text-gray-700"}  font-medium shadow-md hover:bg-green-500 transition`}
-    onClick={()=>{setMyBlogs(false); getAllBlogs();console.log("all")}}
+    onClick={()=>{setMyBlogs(false);setPageNum(1); getAllBlogs();console.log("all")}}
   >
     All Blogs
   </button>
   <button
     className={`px-6 py-2 rounded-xl cursor-pointer ${myBlogs?" bg-green-400 text-white": "bg-gray-200 text-gray-700"}  font-medium shadow-md hover:bg-gray-300 transition`}
-    onClick={()=>{setMyBlogs(true); getMyBlogs();console.log("my")}}
+    onClick={()=>{setMyBlogs(true);setPageNum(1); getMyBlogs();console.log("my")}}
   >
     My Blogs
   </button>
@@ -288,10 +292,21 @@ const handleLogout = () => {
     </div>
 </div>
 <div className="flex justify-center items-center space-x-4 mt-8">
-    <button className={`rounded-full border cursor-pointer ${pageNum === 1 ? "bg-green-400 text-white border-none":"text-black"} border-gray-400 text-black w-[50px] h-[50px]`} onClick={() => handlePagination(1)} >1</button>
-    <button className={`rounded-full border cursor-pointer ${pageNum === 2 ? "bg-green-400 text-white":"text-black"} border-gray-400 text-black w-[50px] h-[50px]`} onClick={()=>{handlePagination(2)} }>2</button>
-    <button className={`rounded-full border cursor-pointer ${pageNum === 3 ? "bg-green-400 text-white":"text-black"} border-gray-400 text-black w-[50px] h-[50px]`} onClick={()=>{handlePagination(3)} }>3</button>
+  {Array.from({ length: totalPages }, (_, i) => (
+    <button
+      key={i + 1}
+      className={`rounded-full border cursor-pointer ${
+        pageNum === i + 1
+          ? "bg-green-400 text-white border-none"
+          : "text-black"
+      } border-gray-400 w-[50px] h-[50px]`}
+      onClick={() => handlePagination(i + 1)}
+    >
+      {i + 1}
+    </button>
+  ))}
 </div>
+
 
 
     </div>

@@ -8,6 +8,10 @@ const addBlog = async (req, res) => {
         const { title, content } = req.body;
         const userId = req.userId;
         const imageFile = req.files?.image;
+        if(!userId){
+            return res.status(401).json({error:"Unauthorized user"})
+        }
+
         let url
         if (imageFile) {
             url = await uploadToCloudinary(imageFile.tempFilePath); 
@@ -27,8 +31,10 @@ const getAllBlogs = async (req, res) => {
         const pageNumber = parseInt(page) || 1;
         const limitNumber = parseInt(limit) || 3;
         const skip = (pageNumber - 1) * limitNumber;
+        const totalBlogs = await Blog.countDocuments();
+        const totalPages = Math.ceil(totalBlogs / limitNumber);
         const blogs = await Blog.find().skip(skip).limit(limitNumber).populate("userId",'username');
-        res.status(200).json(blogs);
+        res.status(200).json({  blogs, totalPages });
     } catch (error) {
         res.status(500).json({ error: "Failed to fetch blog posts" });
     }
@@ -40,9 +46,14 @@ const getMyBlogs = async (req, res) => {
         const pageNumber = parseInt(page) || 1;
         const limitNumber = parseInt(limit) || 3;
         const skip = (pageNumber - 1) * limitNumber;
+        const totalBlogs = await Blog.countDocuments({ userId: req.userId });
+        const totalPages = Math.ceil(totalBlogs / limitNumber);
         const  userId  = req.userId;
+        if(!userId){
+            return res.status(401).json({error:"Unauthorized user"})
+        }
         const blogs = await Blog.find({ userId }).skip(skip).limit(limitNumber).populate("userId", 'username');
-        res.status(200).json(blogs);
+        res.status(200).json({  blogs, totalPages });
     } catch (error) {
         res.status(500).json({ error: "Failed to fetch user's blog posts" });
     }   
@@ -65,10 +76,23 @@ const getSingleBlog = async (req, res) => {
 const updateBlog = async (req, res) => {
     try {
         const { id } = req.params;
-        const { title, content, authorName } = req.body;
+        const { title, content } = req.body;
+        const userId = req.userId;
+        if(!userId){
+            return res.status(401).json({error:"Unauthorized user"})
+        }
+
+        const blog = await Blog.findById(id);
+        if (!blog) {
+            return res.status(404).json({ error: "Blog post not found" });
+        }
+        if (blog.userId.toString() !== userId) {
+            return res.status(403).json({ error: "You are not authorized to update this blog post" });
+        }
+
         const updatedBlog = await Blog.findByIdAndUpdate(
             id,
-            { title, content, authorName },
+            { title, content },
             { new: true }
         );
         if (!updatedBlog) {
@@ -83,9 +107,17 @@ const updateBlog = async (req, res) => {
 const deleteBlog = async (req, res) => {
     try {
         const { id } = req.params;
+        const userId = req.userId;
+        if(!userId){
+            return res.status(401).json({error:"Unauthorized user"})
+        }
+
         const blog = await Blog.findById(id);
         if (!blog) {
             return res.status(404).json({ error: "Blog post not found" });
+        }
+          if (blog.userId.toString() !== userId) {
+            return res.status(403).json({ error: "You are not authorized to update this blog post" });
         }
         await deleteFromCloudinary(blog.imageUrl);
         const deletedBlog = await Blog.findByIdAndDelete(id);

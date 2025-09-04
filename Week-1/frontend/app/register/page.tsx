@@ -1,4 +1,5 @@
 "use client";
+import { useRouter } from "next/navigation";
 import React, { useState } from "react";
 
 const Register = () => {
@@ -7,6 +8,8 @@ const Register = () => {
     email: "",
     password: "",
   });
+
+  const router = useRouter();
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setForm({ ...form, [e.target.name]: e.target.value });
@@ -24,6 +27,9 @@ const Register = () => {
       const data = await res.json();
       console.log("Response:", data);
       alert(data.message);
+      if (res.ok) {
+        router.push("/login");
+      }
     } catch (error) {
       console.error("Error submitting form", error);
     }

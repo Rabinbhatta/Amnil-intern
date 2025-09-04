@@ -9,7 +9,7 @@ router.get("/allBlogs",getAllBlogs);
 router.post("/addBlog",authorize,addBlog);
 router.get("/myBlogs",authorize,getMyBlogs);
 router.get("/getBlogById/:id",getSingleBlog);
-router.put("/updateBlog/:id",updateBlog);
+router.put("/updateBlog/:id",authorize,updateBlog);
 router.delete("/deleteBlog/:id",authorize,deleteBlog);
 
 export default router;
