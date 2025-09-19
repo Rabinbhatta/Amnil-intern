@@ -5,6 +5,9 @@ import dotenv from "dotenv";
 import blogRoutes from "./routes/blog.js";
 import userRoutes from "./routes/user.js";
 import  fileUpload from "express-fileupload";
+import swaggerUi from "swagger-ui-express"; 
+import swaggerFile from "./config/swagger-output.json" with { type: "json" };
+import requestLogger from "./middleware/requestlogger.js";
 
 dotenv.config();
 
@@ -24,9 +27,11 @@ app.use(
     origin: "*",
   })
 );
+app.use(requestLogger);
 
 app.use("/api/user",userRoutes);
 app.use("/api/blog",blogRoutes);
+app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerFile));
 
 
 mongoose

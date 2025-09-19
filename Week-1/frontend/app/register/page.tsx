@@ -1,6 +1,7 @@
 "use client";
 import { useRouter } from "next/navigation";
 import React, { useState } from "react";
+import { AiOutlineEye, AiOutlineEyeInvisible } from "react-icons/ai";
 
 const Register = () => {
   const [form, setForm] = useState({
@@ -8,6 +9,8 @@ const Register = () => {
     email: "",
     password: "",
   });
+  const [dialog, setDialog] = useState(false);
+  const [showPassword, setShowPassword] = useState(false);
 
   const router = useRouter();
 
@@ -26,13 +29,21 @@ const Register = () => {
 
       const data = await res.json();
       console.log("Response:", data);
-      alert(data.message);
+
       if (res.ok) {
-        router.push("/login");
+        setDialog(true);
+      } else {
+        alert(data.error || "Registration failed");
       }
     } catch (error) {
       console.error("Error submitting form", error);
+      alert("Something went wrong. Please try again.");
     }
+  };
+
+  const closeDialog = () => {
+    setDialog(false);
+    router.push("/login");
   };
 
   return (
@@ -43,10 +54,7 @@ const Register = () => {
           <p className="text-xl">Create an account</p>
         </div>
         <div>
-          <form
-            onSubmit={handleSubmit}
-            className="flex flex-col gap-6 mt-8"
-          >
+          <form onSubmit={handleSubmit} className="flex flex-col gap-6 mt-8">
             <input
               type="text"
               name="username"
@@ -63,23 +71,58 @@ const Register = () => {
               onChange={handleChange}
               className="border-2 border-gray-300 rounded-lg p-3 focus:outline-none focus:border-green-400"
             />
-            <input
-              type="password"
-              name="password"
-              placeholder="Password"
-              value={form.password}
-              onChange={handleChange}
-              className="border-2 border-gray-300 rounded-lg p-3 focus:outline-none focus:border-green-400"
-            />
-            <button className="bg-green-400 text-white p-3 rounded-lg hover:bg-green-500 transition duration-300 cursor-pointer">
+            {/* Password with eye toggle */}
+            <div className="relative">
+              <input
+                type={showPassword ? "text" : "password"}
+                name="password"
+                placeholder="Password"
+                value={form.password}
+                onChange={handleChange}
+                className="border-2 border-gray-300 rounded-lg p-3 w-full focus:outline-none focus:border-green-400"
+              />
+              <span
+                onClick={() => setShowPassword(!showPassword)}
+                className="absolute right-3 top-3 cursor-pointer text-gray-600"
+              >
+                {showPassword ? <AiOutlineEyeInvisible size={22} /> : <AiOutlineEye size={22} />}
+              </span>
+            </div>
+            <button
+              type="submit"
+              className="bg-green-400 text-white p-3 rounded-lg hover:bg-green-500 transition duration-300 cursor-pointer"
+            >
               Register
             </button>
           </form>
         </div>
-             <div className='text-center mt-6'>
-          <p>Already have an account? <a href="/login" className='text-green-400 hover:underline cursor-pointer'>Login</a></p>
+        <div className="text-center mt-6">
+          <p>
+            Already have an account?{" "}
+            <a href="/login" className="text-green-400 hover:underline cursor-pointer">
+              Login
+            </a>
+          </p>
         </div>
       </div>
+
+      {/* Modal dialog */}
+      {dialog && (
+        <div className="fixed inset-0 bg-transparent bg-opacity-30 backdrop-blur-sm flex justify-center items-center z-50">
+          <div className="bg-white p-8 rounded-xl shadow-lg max-w-sm text-center">
+            <h2 className="text-2xl font-semibold mb-4">Registration Successful!</h2>
+            <p className="mb-6">
+              ✅ Please check your email to verify your account before logging in.
+            </p>
+            <button
+              onClick={closeDialog}
+              className="bg-green-400 text-white px-6 py-2 rounded-lg hover:bg-green-500 transition duration-300 cursor-pointer"
+            >
+              OK
+            </button>
+          </div>
+        </div>
+      )}
     </div>
   );
 };

@@ -1,0 +1,898 @@
+[2025-09-17 15:38:43] info:
+  Message: HTTP POST /api/user/login - Body: {"email":"rabin@gmail.com","password":"12345"}
+[2025-09-17 15:38:43] info:
+  Message: Login attempt for email: rabin@gmail.com
+[2025-09-17 15:38:43] info:
+  Message: ✅ User logged in successfully: rabin@gmail.com
+[2025-09-17 15:39:04] info:
+  Message: HTTP POST /api/user/login - Body: {"email":"rabin@gmail.com","password":"1235"}
+[2025-09-17 15:39:04] info:
+  Message: Login attempt for email: rabin@gmail.com
+[2025-09-17 15:39:05] warn:
+  Message: Login failed - Invalid password for user: rabin@gmail.com
+[2025-09-18 21:12:07] info:
+  Message: HTTP GET / - Body: undefined
+[2025-09-18 21:12:13] info:
+  Message: HTTP GET /api-docs/ - Body: undefined
+[2025-09-18 21:12:13] info:
+  Message: HTTP GET /api-docs/swagger-ui.css - Body: undefined
+[2025-09-18 21:12:13] info:
+  Message: HTTP GET /api-docs/swagger-ui-bundle.js - Body: undefined
+[2025-09-18 21:12:13] info:
+  Message: HTTP GET /api-docs/swagger-ui-standalone-preset.js - Body: undefined
+[2025-09-18 21:12:13] info:
+  Message: HTTP GET /api-docs/swagger-ui-init.js - Body: undefined
+[2025-09-18 21:13:56] info:
+  Message: HTTP POST /api/user/register - Body: {"username":"rab","email":"rabinbhattarai646@gmail.com","password":"12345"}
+[2025-09-18 21:13:56] info:
+  Message: Register attempt for email: rabinbhattarai646@gmail.com
+[2025-09-18 21:13:57] warn:
+  Message: Registration failed - User already exists: rabinbhattarai646@gmail.com
+[2025-09-18 21:13:58] info:
+  Message: HTTP POST /api/user/register - Body: {"username":"rab","email":"rabinbhattarai646@gmail.com","password":"12345"}
+[2025-09-18 21:13:58] info:
+  Message: Register attempt for email: rabinbhattarai646@gmail.com
+[2025-09-18 21:13:58] warn:
+  Message: Registration failed - User already exists: rabinbhattarai646@gmail.com
+[2025-09-18 21:15:37] info:
+  Message: HTTP POST /api/user/register - Body: {"username":"rab","email":"rabinbhattarai646@gmail.com","password":"12345"}
+[2025-09-18 21:15:37] info:
+  Message: Register attempt for email: rabinbhattarai646@gmail.com
+[2025-09-18 21:15:38] info:
+  Message: ✅ New user registered successfully: rabinbhattarai646@gmail.com
+[2025-09-18 21:18:08] info:
+  Message: HTTP POST /api/user/register - Body: {"username":"rab","email":"rabinbhattarai646@gmail.com","password":"12345"}
+[2025-09-18 21:18:08] info:
+  Message: Register attempt for email: rabinbhattarai646@gmail.com
+[2025-09-18 21:18:09] info:
+  Message: ✅ New user registered successfully: rabinbhattarai646@gmail.com
+[2025-09-18 21:20:11] info:
+  Message: HTTP POST /api/user/register - Body: {"username":"rab","email":"rabinbhattarai646@gmail.com","password":"12345"}
+[2025-09-18 21:20:11] info:
+  Message: Register attempt for email: rabinbhattarai646@gmail.com
+[2025-09-18 21:20:16] info:
+  Message: ✅ New user registered successfully: rabinbhattarai646@gmail.com
+[2025-09-18 21:27:12] info:
+  Message: HTTP POST /api/user/register - Body: {"username":"rab","email":"rabinbhattarai646@gmail.com","password":"12345"}
+[2025-09-18 21:27:12] info:
+  Message: Register attempt for email: rabinbhattarai646@gmail.com
+[2025-09-18 21:27:16] info:
+  Message: ✅ New user registered successfully: rabinbhattarai646@gmail.com
+[2025-09-18 21:28:55] info:
+  Message: HTTP POST /api/user/register - Body: {"username":"rab","email":"rabinbhattarai646@gmail.com","password":"12345"}
+[2025-09-18 21:28:55] info:
+  Message: Register attempt for email: rabinbhattarai646@gmail.com
+[2025-09-18 21:28:56] warn:
+  Message: Registration failed - User already exists: rabinbhattarai646@gmail.com
+[2025-09-18 21:29:22] info:
+  Message: HTTP POST /api/user/register - Body: {"username":"rab","email":"rabinbhattarai646@gmail.com","password":"12345"}
+[2025-09-18 21:29:22] info:
+  Message: Register attempt for email: rabinbhattarai646@gmail.com
+[2025-09-18 21:29:25] info:
+  Message: ✅ New user registered successfully: rabinbhattarai646@gmail.com
+[2025-09-18 21:34:59] info:
+  Message: HTTP POST /api/user/register - Body: {"username":"rab","email":"rabinbhattarai646@gmail.com","password":"12345"}
+[2025-09-18 21:34:59] info:
+  Message: Register attempt for email: rabinbhattarai646@gmail.com
+[2025-09-18 21:35:03] info:
+  Message: ✅ New user registered successfully: rabinbhattarai646@gmail.com
+[2025-09-18 21:35:10] info:
+  Message: HTTP GET /verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGNjMmEyOGNiYWZhYzcwNmM4YjY3YzQiLCJlbWFpbCI6InJhYmluYmhhdHRhcmFpNjQ2QGdtYWlsLmNvbSIsImlhdCI6MTc1ODIxMDYwMCwiZXhwIjoxNzU4MjE0MjAwfQ.-eT4WL-C01kLRqP-M9fBoF_0-mCAfOzUXmj1xD_8830 - Body: undefined
+[2025-09-18 21:35:41] info:
+  Message: HTTP GET /verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGNjMmEyOGNiYWZhYzcwNmM4YjY3YzQiLCJlbWFpbCI6InJhYmluYmhhdHRhcmFpNjQ2QGdtYWlsLmNvbSIsImlhdCI6MTc1ODIxMDYwMCwiZXhwIjoxNzU4MjE0MjAwfQ.-eT4WL-C01kLRqP-M9fBoF_0-mCAfOzUXmj1xD_8830 - Body: undefined
+[2025-09-18 21:35:44] info:
+  Message: HTTP GET /verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGNjMmEyOGNiYWZhYzcwNmM4YjY3YzQiLCJlbWFpbCI6InJhYmluYmhhdHRhcmFpNjQ2QGdtYWlsLmNvbSIsImlhdCI6MTc1ODIxMDYwMCwiZXhwIjoxNzU4MjE0MjAwfQ.-eT4WL-C01kLRqP-M9fBoF_0-mCAfOzUXmj1xD_8830 - Body: undefined
+[2025-09-18 21:36:33] info:
+  Message: HTTP GET /api/auth/verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGNjMmEyOGNiYWZhYzcwNmM4YjY3YzQiLCJlbWFpbCI6InJhYmluYmhhdHRhcmFpNjQ2QGdtYWlsLmNvbSIsImlhdCI6MTc1ODIxMDYwMCwiZXhwIjoxNzU4MjE0MjAwfQ.-eT4WL-C01kLRqP-M9fBoF_0-mCAfOzUXmj1xD_8830 - Body: undefined
+[2025-09-18 21:37:31] info:
+  Message: HTTP GET /api/user/verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGNjMmEyOGNiYWZhYzcwNmM4YjY3YzQiLCJlbWFpbCI6InJhYmluYmhhdHRhcmFpNjQ2QGdtYWlsLmNvbSIsImlhdCI6MTc1ODIxMDYwMCwiZXhwIjoxNzU4MjE0MjAwfQ.-eT4WL-C01kLRqP-M9fBoF_0-mCAfOzUXmj1xD_8830 - Body: undefined
+[2025-09-18 21:37:31] info:
+  Message: HTTP GET /favicon.ico - Body: undefined
+[2025-09-18 21:39:44] info:
+  Message: HTTP GET /api/user/verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGNjMmEyOGNiYWZhYzcwNmM4YjY3YzQiLCJlbWFpbCI6InJhYmluYmhhdHRhcmFpNjQ2QGdtYWlsLmNvbSIsImlhdCI6MTc1ODIxMDYwMCwiZXhwIjoxNzU4MjE0MjAwfQ.-eT4WL-C01kLRqP-M9fBoF_0-mCAfOzUXmj1xD_8830 - Body: undefined
+[2025-09-18 21:40:50] info:
+  Message: HTTP GET /api/user/verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGNjMmEyOGNiYWZhYzcwNmM4YjY3YzQiLCJlbWFpbCI6InJhYmluYmhhdHRhcmFpNjQ2QGdtYWlsLmNvbSIsImlhdCI6MTc1ODIxMDYwMCwiZXhwIjoxNzU4MjE0MjAwfQ.-eT4WL-C01kLRqP-M9fBoF_0-mCAfOzUXmj1xD_8830 - Body: undefined
+[2025-09-18 21:42:02] info:
+  Message: HTTP GET /api/user/verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGNjMmEyOGNiYWZhYzcwNmM4YjY3YzQiLCJlbWFpbCI6InJhYmluYmhhdHRhcmFpNjQ2QGdtYWlsLmNvbSIsImlhdCI6MTc1ODIxMDYwMCwiZXhwIjoxNzU4MjE0MjAwfQ.-eT4WL-C01kLRqP-M9fBoF_0-mCAfOzUXmj1xD_8830 - Body: undefined
+[2025-09-18 21:42:43] info:
+  Message: HTTP GET /api/user/verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGNjMmEyOGNiYWZhYzcwNmM4YjY3YzQiLCJlbWFpbCI6InJhYmluYmhhdHRhcmFpNjQ2QGdtYWlsLmNvbSIsImlhdCI6MTc1ODIxMDYwMCwiZXhwIjoxNzU4MjE0MjAwfQ.-eT4WL-C01kLRqP-M9fBoF_0-mCAfOzUXmj1xD_8830 - Body: undefined
+[2025-09-18 21:42:44] info:
+  Message: HTTP GET /email-verified - Body: undefined
+[2025-09-18 21:42:51] info:
+  Message: HTTP GET /api/user/verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGNjMmEyOGNiYWZhYzcwNmM4YjY3YzQiLCJlbWFpbCI6InJhYmluYmhhdHRhcmFpNjQ2QGdtYWlsLmNvbSIsImlhdCI6MTc1ODIxMDYwMCwiZXhwIjoxNzU4MjE0MjAwfQ.-eT4WL-C01kLRqP-M9fBoF_0-mCAfOzUXmj1xD_8830 - Body: undefined
+[2025-09-18 21:43:23] info:
+  Message: HTTP GET /api/user/verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGNjMmEyOGNiYWZhYzcwNmM4YjY3YzQiLCJlbWFpbCI6InJhYmluYmhhdHRhcmFpNjQ2QGdtYWlsLmNvbSIsImlhdCI6MTc1ODIxMDYwMCwiZXhwIjoxNzU4MjE0MjAwfQ.-eT4WL-C01kLRqP-M9fBoF_0-mCAfOzUXmj1xD_8830 - Body: undefined
+[2025-09-18 21:43:24] info:
+  Message: HTTP GET /email-verified - Body: undefined
+[2025-09-18 21:51:51] info:
+  Message: HTTP GET /api-docs/ - Body: undefined
+[2025-09-18 21:51:51] info:
+  Message: HTTP GET /api-docs/swagger-ui.css - Body: undefined
+[2025-09-18 21:51:51] info:
+  Message: HTTP GET /api-docs/swagger-ui-bundle.js - Body: undefined
+[2025-09-18 21:51:51] info:
+  Message: HTTP GET /api-docs/swagger-ui-standalone-preset.js - Body: undefined
+[2025-09-18 21:51:51] info:
+  Message: HTTP GET /api-docs/swagger-ui-init.js - Body: undefined
+[2025-09-18 21:52:07] info:
+  Message: HTTP GET /api/user/forgot-password - Body: undefined
+[2025-09-18 21:52:47] info:
+  Message: HTTP GET /api-docs/ - Body: undefined
+[2025-09-18 21:52:48] info:
+  Message: HTTP GET /api-docs/swagger-ui.css - Body: undefined
+[2025-09-18 21:52:48] info:
+  Message: HTTP GET /api-docs/swagger-ui-bundle.js - Body: undefined
+[2025-09-18 21:52:48] info:
+  Message: HTTP GET /api-docs/swagger-ui-standalone-preset.js - Body: undefined
+[2025-09-18 21:52:48] info:
+  Message: HTTP GET /api-docs/swagger-ui-init.js - Body: undefined
+[2025-09-18 21:52:48] info:
+  Message: HTTP GET /api-docs/favicon-32x32.png - Body: undefined
+[2025-09-18 21:53:15] info:
+  Message: HTTP POST /api/user/forgot-password - Body: {"email":"rabinbhattarai646@gmail.com"}
+[2025-09-18 21:53:16] info:
+  Message: HTTP POST /api/user/forgot-password - Body: {"email":"rabinbhattarai646@gmail.com"}
+[2025-09-18 21:53:41] info:
+  Message: HTTP POST /api/user/forgot-password - Body: {"email":"rabinbhattarai646@gmail.com"}
+[2025-09-18 21:53:57] info:
+  Message: HTTP POST /api/user/forgot-password - Body: {"email":"rabinbhattarai646@gmail.com"}
+[2025-09-18 21:56:18] info:
+  Message: HTTP POST /api/user/forgot-password - Body: {"email":"rabinbhattarai646@gmail.com"}
+[2025-09-18 22:19:50] info:
+  Message: HTTP POST /api/user/register - Body: {"username":"rab","email":"rabinbhattarai646@gmail.com","password":"12345"}
+[2025-09-18 22:19:50] info:
+  Message: Register attempt for email: rabinbhattarai646@gmail.com
+[2025-09-18 22:19:55] info:
+  Message: ✅ New user registered successfully: rabinbhattarai646@gmail.com
+[2025-09-18 22:20:17] info:
+  Message: HTTP GET /api/auth/verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGNjMzRhYTJhNGQxYmUxMzNiNWY0ZTAiLCJlbWFpbCI6InJhYmluYmhhdHRhcmFpNjQ2QGdtYWlsLmNvbSIsImlhdCI6MTc1ODIxMzI5MCwiZXhwIjoxNzU4MjE2ODkwfQ.hMhiwglyNdFDWsrJn5vY1nbsZhYCwtYcRtcSMOLLiUk - Body: undefined
+[2025-09-18 22:20:53] info:
+  Message: HTTP GET /api/user/verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGNjMzRhYTJhNGQxYmUxMzNiNWY0ZTAiLCJlbWFpbCI6InJhYmluYmhhdHRhcmFpNjQ2QGdtYWlsLmNvbSIsImlhdCI6MTc1ODIxMzI5MCwiZXhwIjoxNzU4MjE2ODkwfQ.hMhiwglyNdFDWsrJn5vY1nbsZhYCwtYcRtcSMOLLiUk - Body: undefined
+[2025-09-18 22:34:42] info:
+  Message: HTTP POST /api/user/forgot-password - Body: {"email":"rabinbhattarai646@gmail.com"}
+[2025-09-18 22:38:24] info:
+  Message: HTTP POST /api/user/reset-password - Body: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGNjMzRhYTJhNGQxYmUxMzNiNWY0ZTAiLCJlbWFpbCI6InJhYmluYmhhdHRhcmFpNjQ2QGdtYWlsLmNvbSIsImlhdCI6MTc1ODIxNDE4MiwiZXhwIjoxNzU4MjE3NzgyfQ.ZleSU69uGWcRiE_GfIhxLNNCiEuuvmBD01IEbgm9HS4","newPassword":"123455"}
+[2025-09-18 22:53:40] info:
+  Message: HTTP POST /api/user/login - Body: {"email":"rabinbhattarai646@gmail.com","password":"123455"}
+[2025-09-18 22:53:40] info:
+  Message: Login attempt for email: rabinbhattarai646@gmail.com
+[2025-09-18 22:53:40] info:
+  Message: User logged in successfully: rabinbhattarai646@gmail.com
+[2025-09-18 22:53:42] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 22:53:43] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 22:53:43] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 22:53:43] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 22:53:43] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 22:53:43] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 22:53:43] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 22:53:44] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 22:53:51] info:
+  Message: HTTP GET /api/blog/myBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 22:53:51] info:
+  Message: HTTP GET /api/blog/myBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 22:53:53] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 22:53:53] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 22:53:53] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 22:53:53] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 22:54:20] info:
+  Message: HTTP GET /api/blog/myBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 22:54:20] info:
+  Message: HTTP GET /api/blog/myBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 22:54:21] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 22:54:22] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 22:54:22] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 22:54:22] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 22:55:56] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 22:55:56] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 22:55:56] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 22:55:57] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 22:56:30] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 22:56:31] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 22:56:31] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 22:56:31] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 22:58:47] info:
+  Message: HTTP GET /api/user/me - Body: undefined
+[2025-09-18 22:58:47] info:
+  Message: HTTP GET /api/user/me - Body: undefined
+[2025-09-18 23:00:44] info:
+  Message: HTTP PUT /api/user/updateProfile - Body: {"username":"Rabin Bhattarai"}
+[2025-09-18 23:03:08] info:
+  Message: HTTP PUT /api/user/update-profile - Body: {"username":"Rabin Bhattarai"}
+[2025-09-18 23:03:58] info:
+  Message: HTTP PUT /api/user/update-profile - Body: {"username":"Rabin Bhattarai"}
+[2025-09-18 23:04:30] info:
+  Message: HTTP PUT /api/user/update-profile - Body: {"username":"Rabin Bhattarai"}
+[2025-09-18 23:05:56] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:05:56] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:05:56] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:05:56] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:05:56] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:05:57] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:05:57] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:05:57] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:06:10] info:
+  Message: HTTP POST /api/user/login - Body: {"email":"rabinbhattarai646@gmail.com","password":"123455"}
+[2025-09-18 23:06:10] info:
+  Message: Login attempt for email: rabinbhattarai646@gmail.com
+[2025-09-18 23:06:11] info:
+  Message: User logged in successfully: rabinbhattarai646@gmail.com
+[2025-09-18 23:06:12] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:06:12] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:06:12] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:06:12] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:06:12] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:06:13] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:06:13] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:06:13] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:06:19] info:
+  Message: HTTP GET /api/user/me - Body: undefined
+[2025-09-18 23:06:19] info:
+  Message: HTTP GET /api/user/me - Body: undefined
+[2025-09-18 23:06:30] info:
+  Message: HTTP PUT /api/user/update-profile - Body: {"username":"rab"}
+[2025-09-18 23:08:30] info:
+  Message: HTTP PUT /api/user/update-profile - Body: {"username":"rab"}
+[2025-09-18 23:09:08] info:
+  Message: HTTP PUT /api/user/update-profile - Body: {"username":"rab"}
+[2025-09-18 23:10:17] info:
+  Message: HTTP PUT /api/user/update-profile - Body: {"username":"rab"}
+[2025-09-18 23:11:10] info:
+  Message: HTTP PUT /api/user/update-profile - Body: {"username":"rab"}
+[2025-09-18 23:11:21] info:
+  Message: HTTP GET /api/user/me - Body: undefined
+[2025-09-18 23:14:51] info:
+  Message: HTTP GET /api/user/me - Body: undefined
+[2025-09-18 23:15:01] info:
+  Message: HTTP PUT /api/user/update-profile - Body: {"username":"rab"}
+[2025-09-18 23:15:25] info:
+  Message: HTTP PUT /api/user/update-profile - Body: {"username":"rab"}
+[2025-09-18 23:15:57] info:
+  Message: HTTP PUT /api/user/update-profile - Body: {"username":"rab"}
+[2025-09-18 23:17:32] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:17:32] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:17:32] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:17:33] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:17:33] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:17:33] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:17:33] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:17:33] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:20:11] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:20:11] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:20:11] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:20:12] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:20:13] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:20:14] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:20:14] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:20:14] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:20:16] info:
+  Message: HTTP GET /api/blog/myBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:20:16] info:
+  Message: Fetched blogs for user 68cc34aa2a4d1be133b5f4e0 - Page 1
+[2025-09-18 23:20:16] info:
+  Message: HTTP GET /api/blog/myBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:20:16] info:
+  Message: Fetched blogs for user 68cc34aa2a4d1be133b5f4e0 - Page 1
+[2025-09-18 23:20:17] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:20:18] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:20:18] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:20:18] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:20:18] info:
+  Message: HTTP GET /api/blog/myBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:20:18] info:
+  Message: Fetched blogs for user 68cc34aa2a4d1be133b5f4e0 - Page 1
+[2025-09-18 23:20:18] info:
+  Message: HTTP GET /api/blog/myBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:20:18] info:
+  Message: Fetched blogs for user 68cc34aa2a4d1be133b5f4e0 - Page 1
+[2025-09-18 23:20:30] info:
+  Message: HTTP POST /api/blog/addBlog - Body: {"title":"rabin","content":"asdfasdf"}
+[2025-09-18 23:20:33] info:
+  Message: Image uploaded for user 68cc34aa2a4d1be133b5f4e0: https://res.cloudinary.com/dscuqewel/image/upload/v1758216931/f0rsqb4sf4tox6lt6b94.jpg
+[2025-09-18 23:20:33] info:
+  Message: New blog created by user 68cc34aa2a4d1be133b5f4e0: rabin
+[2025-09-18 23:20:33] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:20:33] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:20:37] info:
+  Message: HTTP GET /api/blog/myBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:20:38] info:
+  Message: Fetched blogs for user 68cc34aa2a4d1be133b5f4e0 - Page 1
+[2025-09-18 23:20:56] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:20:56] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:20:56] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:20:56] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:21:04] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:21:04] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:21:04] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:21:04] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:21:38] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:21:38] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:21:38] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:21:39] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:22:19] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:22:19] error:
+  Message: Failed to fetch all blogs: Schema hasn't been registered for model "profileImage".
+Use mongoose.model(name, schema)
+  Stack: MissingSchemaError: Schema hasn't been registered for model "profileImage".
+Use mongoose.model(name, schema)
+    at NativeConnection.model (C:\Users\rabin\Desktop\Amnil\Week-1\backend\node_modules\mongoose\lib\connection.js:1493:13)
+    at _getModelFromConn (C:\Users\rabin\Desktop\Amnil\Week-1\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:579:15)
+    at addModelNamesToMap (C:\Users\rabin\Desktop\Amnil\Week-1\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:507:17)
+    at getModelsMapForPopulate (C:\Users\rabin\Desktop\Amnil\Week-1\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:208:7)
+    at _populatePath (C:\Users\rabin\Desktop\Amnil\Week-1\backend\node_modules\mongoose\lib\model.js:4466:21)
+    at Function.populate (C:\Users\rabin\Desktop\Amnil\Week-1\backend\node_modules\mongoose\lib\model.js:4433:21)
+    at model.Query._find (C:\Users\rabin\Desktop\Amnil\Week-1\backend\node_modules\mongoose\lib\query.js:2456:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async model.Query.exec (C:\Users\rabin\Desktop\Amnil\Week-1\backend\node_modules\mongoose\lib\query.js:4627:63)
+    at async getAllBlogs (file:///C:/Users/rabin/Desktop/Amnil/Week-1/backend/controller/blog.js:44:19)
+[2025-09-18 23:22:19] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:22:19] error:
+  Message: Failed to fetch all blogs: Schema hasn't been registered for model "profileImage".
+Use mongoose.model(name, schema)
+  Stack: MissingSchemaError: Schema hasn't been registered for model "profileImage".
+Use mongoose.model(name, schema)
+    at NativeConnection.model (C:\Users\rabin\Desktop\Amnil\Week-1\backend\node_modules\mongoose\lib\connection.js:1493:13)
+    at _getModelFromConn (C:\Users\rabin\Desktop\Amnil\Week-1\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:579:15)
+    at addModelNamesToMap (C:\Users\rabin\Desktop\Amnil\Week-1\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:507:17)
+    at getModelsMapForPopulate (C:\Users\rabin\Desktop\Amnil\Week-1\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:208:7)
+    at _populatePath (C:\Users\rabin\Desktop\Amnil\Week-1\backend\node_modules\mongoose\lib\model.js:4466:21)
+    at Function.populate (C:\Users\rabin\Desktop\Amnil\Week-1\backend\node_modules\mongoose\lib\model.js:4433:21)
+    at model.Query._find (C:\Users\rabin\Desktop\Amnil\Week-1\backend\node_modules\mongoose\lib\query.js:2456:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async model.Query.exec (C:\Users\rabin\Desktop\Amnil\Week-1\backend\node_modules\mongoose\lib\query.js:4627:63)
+    at async getAllBlogs (file:///C:/Users/rabin/Desktop/Amnil/Week-1/backend/controller/blog.js:44:19)
+[2025-09-18 23:22:32] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:22:32] error:
+  Message: Failed to fetch all blogs: Schema hasn't been registered for model "profileImage".
+Use mongoose.model(name, schema)
+  Stack: MissingSchemaError: Schema hasn't been registered for model "profileImage".
+Use mongoose.model(name, schema)
+    at NativeConnection.model (C:\Users\rabin\Desktop\Amnil\Week-1\backend\node_modules\mongoose\lib\connection.js:1493:13)
+    at _getModelFromConn (C:\Users\rabin\Desktop\Amnil\Week-1\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:579:15)
+    at addModelNamesToMap (C:\Users\rabin\Desktop\Amnil\Week-1\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:507:17)
+    at getModelsMapForPopulate (C:\Users\rabin\Desktop\Amnil\Week-1\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:208:7)
+    at _populatePath (C:\Users\rabin\Desktop\Amnil\Week-1\backend\node_modules\mongoose\lib\model.js:4466:21)
+    at Function.populate (C:\Users\rabin\Desktop\Amnil\Week-1\backend\node_modules\mongoose\lib\model.js:4433:21)
+    at model.Query._find (C:\Users\rabin\Desktop\Amnil\Week-1\backend\node_modules\mongoose\lib\query.js:2456:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async model.Query.exec (C:\Users\rabin\Desktop\Amnil\Week-1\backend\node_modules\mongoose\lib\query.js:4627:63)
+    at async getAllBlogs (file:///C:/Users/rabin/Desktop/Amnil/Week-1/backend/controller/blog.js:44:19)
+[2025-09-18 23:22:32] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:22:33] error:
+  Message: Failed to fetch all blogs: Schema hasn't been registered for model "profileImage".
+Use mongoose.model(name, schema)
+  Stack: MissingSchemaError: Schema hasn't been registered for model "profileImage".
+Use mongoose.model(name, schema)
+    at NativeConnection.model (C:\Users\rabin\Desktop\Amnil\Week-1\backend\node_modules\mongoose\lib\connection.js:1493:13)
+    at _getModelFromConn (C:\Users\rabin\Desktop\Amnil\Week-1\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:579:15)
+    at addModelNamesToMap (C:\Users\rabin\Desktop\Amnil\Week-1\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:507:17)
+    at getModelsMapForPopulate (C:\Users\rabin\Desktop\Amnil\Week-1\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:208:7)
+    at _populatePath (C:\Users\rabin\Desktop\Amnil\Week-1\backend\node_modules\mongoose\lib\model.js:4466:21)
+    at Function.populate (C:\Users\rabin\Desktop\Amnil\Week-1\backend\node_modules\mongoose\lib\model.js:4433:21)
+    at model.Query._find (C:\Users\rabin\Desktop\Amnil\Week-1\backend\node_modules\mongoose\lib\query.js:2456:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async model.Query.exec (C:\Users\rabin\Desktop\Amnil\Week-1\backend\node_modules\mongoose\lib\query.js:4627:63)
+    at async getAllBlogs (file:///C:/Users/rabin/Desktop/Amnil/Week-1/backend/controller/blog.js:44:19)
+[2025-09-18 23:23:24] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:23:24] error:
+  Message: Failed to fetch all blogs: Schema hasn't been registered for model "profileImage".
+Use mongoose.model(name, schema)
+  Stack: MissingSchemaError: Schema hasn't been registered for model "profileImage".
+Use mongoose.model(name, schema)
+    at NativeConnection.model (C:\Users\rabin\Desktop\Amnil\Week-1\backend\node_modules\mongoose\lib\connection.js:1493:13)
+    at _getModelFromConn (C:\Users\rabin\Desktop\Amnil\Week-1\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:579:15)
+    at addModelNamesToMap (C:\Users\rabin\Desktop\Amnil\Week-1\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:507:17)
+    at getModelsMapForPopulate (C:\Users\rabin\Desktop\Amnil\Week-1\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:208:7)
+    at _populatePath (C:\Users\rabin\Desktop\Amnil\Week-1\backend\node_modules\mongoose\lib\model.js:4466:21)
+    at Function.populate (C:\Users\rabin\Desktop\Amnil\Week-1\backend\node_modules\mongoose\lib\model.js:4433:21)
+    at model.Query._find (C:\Users\rabin\Desktop\Amnil\Week-1\backend\node_modules\mongoose\lib\query.js:2456:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async model.Query.exec (C:\Users\rabin\Desktop\Amnil\Week-1\backend\node_modules\mongoose\lib\query.js:4627:63)
+    at async getAllBlogs (file:///C:/Users/rabin/Desktop/Amnil/Week-1/backend/controller/blog.js:44:19)
+[2025-09-18 23:23:24] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:23:24] error:
+  Message: Failed to fetch all blogs: Schema hasn't been registered for model "profileImage".
+Use mongoose.model(name, schema)
+  Stack: MissingSchemaError: Schema hasn't been registered for model "profileImage".
+Use mongoose.model(name, schema)
+    at NativeConnection.model (C:\Users\rabin\Desktop\Amnil\Week-1\backend\node_modules\mongoose\lib\connection.js:1493:13)
+    at _getModelFromConn (C:\Users\rabin\Desktop\Amnil\Week-1\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:579:15)
+    at addModelNamesToMap (C:\Users\rabin\Desktop\Amnil\Week-1\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:507:17)
+    at getModelsMapForPopulate (C:\Users\rabin\Desktop\Amnil\Week-1\backend\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:208:7)
+    at _populatePath (C:\Users\rabin\Desktop\Amnil\Week-1\backend\node_modules\mongoose\lib\model.js:4466:21)
+    at Function.populate (C:\Users\rabin\Desktop\Amnil\Week-1\backend\node_modules\mongoose\lib\model.js:4433:21)
+    at model.Query._find (C:\Users\rabin\Desktop\Amnil\Week-1\backend\node_modules\mongoose\lib\query.js:2456:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async model.Query.exec (C:\Users\rabin\Desktop\Amnil\Week-1\backend\node_modules\mongoose\lib\query.js:4627:63)
+    at async getAllBlogs (file:///C:/Users/rabin/Desktop/Amnil/Week-1/backend/controller/blog.js:44:19)
+[2025-09-18 23:25:36] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:25:36] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:25:36] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:25:36] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:25:42] info:
+  Message: HTTP GET /api/blog/myBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:25:43] info:
+  Message: Fetched blogs for user 68cc34aa2a4d1be133b5f4e0 - Page 1
+[2025-09-18 23:25:43] info:
+  Message: HTTP GET /api/blog/myBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:25:43] info:
+  Message: Fetched blogs for user 68cc34aa2a4d1be133b5f4e0 - Page 1
+[2025-09-18 23:26:16] info:
+  Message: HTTP GET /api/blog/myBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:26:16] info:
+  Message: Fetched blogs for user 68cc34aa2a4d1be133b5f4e0 - Page 1
+[2025-09-18 23:26:19] info:
+  Message: HTTP GET /api/blog/myBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:26:19] info:
+  Message: Fetched blogs for user 68cc34aa2a4d1be133b5f4e0 - Page 1
+[2025-09-18 23:26:20] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:26:21] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:26:21] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:26:21] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:26:22] info:
+  Message: HTTP GET /api/blog/myBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:26:22] info:
+  Message: Fetched blogs for user 68cc34aa2a4d1be133b5f4e0 - Page 1
+[2025-09-18 23:26:22] info:
+  Message: HTTP GET /api/blog/myBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:26:23] info:
+  Message: Fetched blogs for user 68cc34aa2a4d1be133b5f4e0 - Page 1
+[2025-09-18 23:30:09] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:30:10] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:30:10] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:30:10] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:30:11] info:
+  Message: HTTP GET /api/blog/myBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:30:11] info:
+  Message: Fetched blogs for user 68cc34aa2a4d1be133b5f4e0 - Page 1
+[2025-09-18 23:30:11] info:
+  Message: HTTP GET /api/blog/myBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:30:12] info:
+  Message: Fetched blogs for user 68cc34aa2a4d1be133b5f4e0 - Page 1
+[2025-09-18 23:30:12] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:30:13] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:30:13] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:30:13] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:30:15] info:
+  Message: HTTP GET /api/blog/myBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:30:16] info:
+  Message: Fetched blogs for user 68cc34aa2a4d1be133b5f4e0 - Page 1
+[2025-09-18 23:30:16] info:
+  Message: HTTP GET /api/blog/myBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:30:16] info:
+  Message: Fetched blogs for user 68cc34aa2a4d1be133b5f4e0 - Page 1
+[2025-09-18 23:31:57] info:
+  Message: HTTP GET /api/blog/myBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:31:57] info:
+  Message: Fetched blogs for user 68cc34aa2a4d1be133b5f4e0 - Page 1
+[2025-09-18 23:31:57] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:31:57] info:
+  Message: HTTP GET /api/blog/myBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:31:58] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:31:58] info:
+  Message: Fetched blogs for user 68cc34aa2a4d1be133b5f4e0 - Page 1
+[2025-09-18 23:31:59] info:
+  Message: HTTP GET /api/blog/myBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:31:59] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:31:59] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:31:59] info:
+  Message: Fetched blogs for user 68cc34aa2a4d1be133b5f4e0 - Page 1
+[2025-09-18 23:32:00] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:32:00] info:
+  Message: HTTP GET /api/blog/myBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:32:01] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:32:01] info:
+  Message: Fetched blogs for user 68cc34aa2a4d1be133b5f4e0 - Page 1
+[2025-09-18 23:32:02] info:
+  Message: HTTP GET /api/blog/myBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:32:02] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:32:02] info:
+  Message: Fetched blogs for user 68cc34aa2a4d1be133b5f4e0 - Page 1
+[2025-09-18 23:32:02] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:32:03] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:32:03] info:
+  Message: HTTP GET /api/blog/myBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:32:04] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:32:04] info:
+  Message: Fetched blogs for user 68cc34aa2a4d1be133b5f4e0 - Page 1
+[2025-09-18 23:32:05] info:
+  Message: HTTP GET /api/blog/myBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:32:05] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:32:05] info:
+  Message: Fetched blogs for user 68cc34aa2a4d1be133b5f4e0 - Page 1
+[2025-09-18 23:32:05] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:32:13] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:32:13] info:
+  Message: HTTP GET /api/blog/myBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:32:13] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:32:13] info:
+  Message: Fetched blogs for user 68cc34aa2a4d1be133b5f4e0 - Page 1
+[2025-09-18 23:32:14] info:
+  Message: HTTP GET /api/blog/myBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:32:14] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:32:14] info:
+  Message: Fetched blogs for user 68cc34aa2a4d1be133b5f4e0 - Page 1
+[2025-09-18 23:32:14] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:32:21] info:
+  Message: HTTP GET /api/blog/myBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:32:21] info:
+  Message: Fetched blogs for user 68cc34aa2a4d1be133b5f4e0 - Page 1
+[2025-09-18 23:32:23] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:32:23] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:32:23] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:32:23] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:32:24] info:
+  Message: HTTP GET /api/blog/myBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:32:24] info:
+  Message: Fetched blogs for user 68cc34aa2a4d1be133b5f4e0 - Page 1
+[2025-09-18 23:32:24] info:
+  Message: HTTP GET /api/blog/myBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:32:24] info:
+  Message: Fetched blogs for user 68cc34aa2a4d1be133b5f4e0 - Page 1
+[2025-09-18 23:33:02] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:33:02] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:33:02] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:33:02] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:33:03] info:
+  Message: HTTP GET /api/blog/myBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:33:03] info:
+  Message: Fetched blogs for user 68cc34aa2a4d1be133b5f4e0 - Page 1
+[2025-09-18 23:33:03] info:
+  Message: HTTP GET /api/blog/myBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:33:03] info:
+  Message: Fetched blogs for user 68cc34aa2a4d1be133b5f4e0 - Page 1
+[2025-09-18 23:33:12] info:
+  Message: HTTP POST /api/blog/addBlog - Body: {"title":"asdf","content":"asdfasdf"}
+[2025-09-18 23:33:15] info:
+  Message: Image uploaded for user 68cc34aa2a4d1be133b5f4e0: https://res.cloudinary.com/dscuqewel/image/upload/v1758217693/xtex9ukljxpzmmfiqk1w.jpg
+[2025-09-18 23:33:15] info:
+  Message: New blog created by user 68cc34aa2a4d1be133b5f4e0: asdf
+[2025-09-18 23:33:15] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:33:15] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:33:15] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:33:16] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:33:18] info:
+  Message: HTTP GET /api/blog/myBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:33:18] info:
+  Message: Fetched blogs for user 68cc34aa2a4d1be133b5f4e0 - Page 1
+[2025-09-18 23:33:18] info:
+  Message: HTTP GET /api/blog/myBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:33:18] info:
+  Message: Fetched blogs for user 68cc34aa2a4d1be133b5f4e0 - Page 1
+[2025-09-18 23:33:20] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:33:20] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:33:20] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:33:20] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:33:21] info:
+  Message: HTTP GET /api/blog/myBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:33:21] info:
+  Message: Fetched blogs for user 68cc34aa2a4d1be133b5f4e0 - Page 1
+[2025-09-18 23:33:21] info:
+  Message: HTTP GET /api/blog/myBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:33:22] info:
+  Message: Fetched blogs for user 68cc34aa2a4d1be133b5f4e0 - Page 1
+[2025-09-18 23:33:24] info:
+  Message: HTTP DELETE /api/blog/deleteBlog/68cc45df17ac4af07d36122a - Body: undefined
+[2025-09-18 23:33:27] info:
+  Message: Deleted image from Cloudinary for blog 68cc45df17ac4af07d36122a
+[2025-09-18 23:33:27] info:
+  Message: Blog 68cc45df17ac4af07d36122a deleted by user 68cc34aa2a4d1be133b5f4e0
+[2025-09-18 23:33:27] info:
+  Message: HTTP GET /api/blog/myBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:33:27] info:
+  Message: Fetched blogs for user 68cc34aa2a4d1be133b5f4e0 - Page 1
+[2025-09-18 23:33:52] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:33:53] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:33:53] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:33:53] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:33:54] info:
+  Message: HTTP GET /api/blog/myBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:33:54] info:
+  Message: Fetched blogs for user 68cc34aa2a4d1be133b5f4e0 - Page 1
+[2025-09-18 23:33:54] info:
+  Message: HTTP GET /api/blog/myBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:33:54] info:
+  Message: Fetched blogs for user 68cc34aa2a4d1be133b5f4e0 - Page 1
+[2025-09-18 23:33:57] info:
+  Message: HTTP DELETE /api/blog/deleteBlog/68cc42e5c8a6dfafcccdb88f - Body: undefined
+[2025-09-18 23:33:59] info:
+  Message: Deleted image from Cloudinary for blog 68cc42e5c8a6dfafcccdb88f
+[2025-09-18 23:33:59] info:
+  Message: Blog 68cc42e5c8a6dfafcccdb88f deleted by user 68cc34aa2a4d1be133b5f4e0
+[2025-09-18 23:33:59] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:33:59] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:39:16] info:
+  Message: HTTP GET /api/blog/myBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:39:16] info:
+  Message: Fetched blogs for user 68cc34aa2a4d1be133b5f4e0 - Page 1
+[2025-09-18 23:39:16] info:
+  Message: HTTP GET /api/blog/myBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:39:16] info:
+  Message: Fetched blogs for user 68cc34aa2a4d1be133b5f4e0 - Page 1
+[2025-09-18 23:39:19] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:39:19] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:39:19] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:39:20] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:39:38] info:
+  Message: HTTP POST /api/user/forgot-password - Body: {"email":"rabinbhattarai646@gmail.com"}
+[2025-09-18 23:40:07] info:
+  Message: HTTP POST /api/user/reset-password - Body: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGNjMzRhYTJhNGQxYmUxMzNiNWY0ZTAiLCJlbWFpbCI6InJhYmluYmhhdHRhcmFpNjQ2QGdtYWlsLmNvbSIsImlhdCI6MTc1ODIxODA3OCwiZXhwIjoxNzU4MjIxNjc4fQ.uZeIthgJbT9JF-g-O3sqMltorzMtZn366SzpT-KvILs","newPassword":"123456"}
+[2025-09-18 23:40:13] info:
+  Message: HTTP POST /api/user/login - Body: {"email":"rabinbhattarai646@gmail.com","password":"123456"}
+[2025-09-18 23:40:13] info:
+  Message: Login attempt for email: rabinbhattarai646@gmail.com
+[2025-09-18 23:40:13] info:
+  Message: User logged in successfully: rabinbhattarai646@gmail.com
+[2025-09-18 23:40:15] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:40:15] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:40:15] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:40:15] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:40:15] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:40:16] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:40:16] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:40:16] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:41:18] info:
+  Message: HTTP POST /api/user/register - Body: {"username":"rab","email":"rabinbhattarai646@gmail.com","password":"12345"}
+[2025-09-18 23:41:18] info:
+  Message: Register attempt for email: rabinbhattarai646@gmail.com
+[2025-09-18 23:41:22] info:
+  Message: ✅ New user registered successfully: rabinbhattarai646@gmail.com
+[2025-09-18 23:41:50] info:
+  Message: HTTP GET /api/user/verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGNjNDdjMzE3YWM0YWYwN2QzNjEyNzUiLCJlbWFpbCI6InJhYmluYmhhdHRhcmFpNjQ2QGdtYWlsLmNvbSIsImlhdCI6MTc1ODIxODE3OSwiZXhwIjoxNzU4MjIxNzc5fQ.5Dra41o8F1fcbPq6s9jaQ1bL2kmOCl6GKggRnmtcR9o - Body: undefined
+[2025-09-18 23:42:03] info:
+  Message: HTTP POST /api/user/login - Body: {"email":"rabinbhattarai646@gmail.com","password":"123456"}
+[2025-09-18 23:42:03] info:
+  Message: Login attempt for email: rabinbhattarai646@gmail.com
+[2025-09-18 23:42:04] warn:
+  Message: Login failed - Invalid password for user: rabinbhattarai646@gmail.com
+[2025-09-18 23:42:09] info:
+  Message: HTTP POST /api/user/login - Body: {"email":"rabinbhattarai646@gmail.com","password":"12345"}
+[2025-09-18 23:42:09] info:
+  Message: Login attempt for email: rabinbhattarai646@gmail.com
+[2025-09-18 23:42:10] info:
+  Message: User logged in successfully: rabinbhattarai646@gmail.com
+[2025-09-18 23:42:10] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:42:11] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:42:11] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:42:11] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:42:11] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:42:11] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:42:11] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:42:12] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:44:12] info:
+  Message: HTTP POST /api/user/login - Body: {"email":"rabinbhattarai646@gmail.com","password":"12345"}
+[2025-09-18 23:44:12] info:
+  Message: Login attempt for email: rabinbhattarai646@gmail.com
+[2025-09-18 23:44:13] error:
+  Message:  Login error for rabinbhattarai646@gmail.com: newUser is not defined
+  Stack: ReferenceError: newUser is not defined
+    at loginUser (file:///C:/Users/rabin/Desktop/Amnil/Week-1/backend/controller/auth.js:68:17)
+[2025-09-18 23:47:28] info:
+  Message: HTTP POST /api/user/login - Body: {"email":"rabinbhattarai646@gmail.com","password":"123456"}
+[2025-09-18 23:47:28] info:
+  Message: Login attempt for email: rabinbhattarai646@gmail.com
+[2025-09-18 23:47:28] warn:
+  Message: Login failed - Invalid password for user: rabinbhattarai646@gmail.com
+[2025-09-18 23:47:31] info:
+  Message: HTTP POST /api/user/login - Body: {"email":"rabinbhattarai646@gmail.com","password":"12345"}
+[2025-09-18 23:47:31] info:
+  Message: Login attempt for email: rabinbhattarai646@gmail.com
+[2025-09-18 23:47:31] error:
+  Message:  Login error for rabinbhattarai646@gmail.com: newUser is not defined
+  Stack: ReferenceError: newUser is not defined
+    at loginUser (file:///C:/Users/rabin/Desktop/Amnil/Week-1/backend/controller/auth.js:75:50)
+[2025-09-18 23:48:11] info:
+  Message: HTTP POST /api/user/login - Body: {"email":"rabinbhattarai646@gmail.com","password":"12345"}
+[2025-09-18 23:48:11] info:
+  Message: Login attempt for email: rabinbhattarai646@gmail.com
+[2025-09-18 23:48:15] warn:
+  Message: Login failed - Email not verified for user: rabinbhattarai646@gmail.com
+[2025-09-18 23:48:23] info:
+  Message: HTTP GET /api/user/verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGNjNDdjMzE3YWM0YWYwN2QzNjEyNzUiLCJlbWFpbCI6InJhYmluYmhhdHRhcmFpNjQ2QGdtYWlsLmNvbSIsImlhdCI6MTc1ODIxODU5MSwiZXhwIjoxNzU4MjIyMTkxfQ.tclxpPKhlx0O_falcZaMbNeCOEL_u6qjmTSwW9aPQwc - Body: undefined
+[2025-09-18 23:50:19] info:
+  Message: HTTP POST /api/user/login - Body: {"email":"rabinbhattarai646@gmail.com","password":"12345"}
+[2025-09-18 23:50:19] info:
+  Message: Login attempt for email: rabinbhattarai646@gmail.com
+[2025-09-18 23:50:19] info:
+  Message: User logged in successfully: rabinbhattarai646@gmail.com
+[2025-09-18 23:50:19] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:50:20] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:50:20] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:50:20] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:50:20] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:50:20] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:50:20] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:50:20] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:50:24] info:
+  Message: HTTP GET /api/blog/myBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:50:24] info:
+  Message: Fetched blogs for user 68cc47c317ac4af07d361275 - Page 1
+[2025-09-18 23:50:24] info:
+  Message: HTTP GET /api/blog/myBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:50:24] info:
+  Message: Fetched blogs for user 68cc47c317ac4af07d361275 - Page 1
+[2025-09-18 23:50:26] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:50:26] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:50:26] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:50:27] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:50:28] info:
+  Message: HTTP GET /api/blog/myBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:50:28] info:
+  Message: Fetched blogs for user 68cc47c317ac4af07d361275 - Page 1
+[2025-09-18 23:50:28] info:
+  Message: HTTP GET /api/blog/myBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:50:28] info:
+  Message: Fetched blogs for user 68cc47c317ac4af07d361275 - Page 1
+[2025-09-18 23:50:29] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:50:30] info:
+  Message: Fetched all blogs - Page 1
+[2025-09-18 23:50:30] info:
+  Message: HTTP GET /api/blog/allBlogs?page=1&limit=3 - Body: undefined
+[2025-09-18 23:50:30] info:
+  Message: Fetched all blogs - Page 1
